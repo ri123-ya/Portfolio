@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Apoorv Nath Tripathi's Portfolio
 
 Welcome to my personal portfolio website! This site is built using React and 3JS, showcasing my skills, projects, and experiences.
@@ -29,3 +30,6 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/noobapoo99/new_portfolio.git
    ```
+=======
+# Portfolio
+>>>>>>> a7df550d7cd9bd4ec2745cfa49c3526be71c7e00
