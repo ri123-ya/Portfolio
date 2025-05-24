@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! This site is built using React and 3JS
 
 ## Website
 
-Visit the live website: (https://riya-rastogi.netlify.app/)
+Visit the live website: https://riya-rastogi.netlify.app/
 ## Features
 
 - **Interactive 3D Graphics**: The website leverages 3JS to provide an engaging and visually appealing experience with interactive 3D elements.
@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/noobapoo99/new_portfolio.git
+   git clone https://github.com/ri123-ya/Portfolio.git
    ```
 =======
 # Portfolio
