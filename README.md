@@ -1,12 +1,11 @@
 <<<<<<< HEAD
-# Apoorv Nath Tripathi's Portfolio
+# Riya Rastogi's Portfolio
 
 Welcome to my personal portfolio website! This site is built using React and 3JS, showcasing my skills, projects, and experiences.
 
 ## Website
 
-Visit the live website: [https://leafy-baklava-1ed370.netlify.app/](https://main--sweet-gumdrop-add698.netlify.app/)
-
+Visit the live website: [https://leafy-baklava-1ed370.netlify.app/]
 ## Features
 
 - **Interactive 3D Graphics**: The website leverages 3JS to provide an engaging and visually appealing experience with interactive 3D elements.
