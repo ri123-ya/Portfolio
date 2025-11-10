@@ -47,9 +47,13 @@ import Pingup_img from "./Pingup_img.png";
 import Csir_logo from "./company/Csir_logo.png";
 import Indus_logo from "./company/Indus_logo.png";
 import Hospital_img from "./Hospital_img.png";
+import My_Bot from "./My_Bot.png";
+
 import sql from "./tech/sql.png";
 import Car_img from "./Car_img.png";
 import Amity from "./company/Amity.png";
+import Onehash from "./company/Onehash.png";
+
 
 
 export {
@@ -101,4 +105,6 @@ export {
   sql,
   Car_img,
   Amity,
+  Onehash,
+  My_Bot,
 };

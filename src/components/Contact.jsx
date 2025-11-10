@@ -35,8 +35,8 @@ const Contact = () => {
     //nv39AolC3msOQ2sST
     emailjs
       .send(
-        "service_0ynfa6d",
-        "template_t6aufro",
+        "service_mjygbqp",
+        "template_nw10f3i",
         {
           from_name: form.name,
           to_name: "Riya Rastogi",

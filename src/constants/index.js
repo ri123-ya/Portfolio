@@ -33,6 +33,9 @@ import {
   sql,
   Car_img,
   Amity,
+  Onehash,
+  My_Bot,
+  docker,
 } from "../assets";
 import { FaGithub, FaFileAlt } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
@@ -42,7 +45,7 @@ export const navLinks = [
     id: "leetcode",
     title: "LeetCode",
     icon: SiLeetcode,
-    link: "https://leetcode.com/u/ri_123/", 
+    link: "https://leetcode.com/u/ri_123/",
     external: true,
   },
   {
@@ -73,7 +76,6 @@ export const navLinks = [
   },
 ];
 
-
 const services = [
   {
     title: "Web Developer",
@@ -81,7 +83,7 @@ const services = [
   },
   {
     title: "Next JS Developer",
-    icon: creator, 
+    icon: creator,
   },
   {
     title: "Backend Developer",
@@ -89,7 +91,7 @@ const services = [
   },
   {
     title: "React JS Developer",
-    icon: mobile, 
+    icon: mobile,
   },
 ];
 
@@ -143,9 +145,38 @@ const technologies = [
     name: "sql",
     icon: sql,
   },
+  {
+    name: "Docker",
+    icon: docker,
+  },
 ];
 
 const projects = [
+   {
+    name: "My Personal Bot",
+    description:
+     "A full-stack RAG AI chat assistant that answers from my resume. Multi-LLM calls via LangChain and QdrantDB for resume-specific semantic search.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node-cache",
+        color: "green-text-gradient",
+      },
+      {
+        name: "langchain",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "qdrant",
+        color: "blue-text-gradient",
+      },
+    ],
+    image:My_Bot,
+    source_code_link: "https://github.com/ri123-ya/My-BOT/tree/main",
+  },
   {
     name: "CodeUp",
     description:
@@ -197,29 +228,29 @@ const projects = [
     source_code_link: "https://github.com/ri123-ya/Social_media",
   },
   {
-    name: "REAL ESTATE WEBSITE",
-    description:
-      "A web-based platform that allows users to search, view, and manage real estate listings from various agencies, providing a convenient and efficient solution for buying, selling, or renting properties.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "cloudinary",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: Real_Estate,
-    source_code_link: "https://github.com/ri123-ya/Real-Estate",
+      name: "REAL ESTATE WEBSITE",
+      description:
+        "A web-based platform that allows users to search, view, and manage real estate listings from various agencies, providing a convenient and efficient solution for buying, selling, or renting properties.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "cloudinary",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: Real_Estate,
+      source_code_link: "https://github.com/ri123-ya/Real-Estate",
   },
   {
     name: "PingUp",
@@ -282,20 +313,24 @@ const projects = [
       },
     ],
     image: Car_img,
-    source_code_link: "https://github.com/ri123-ya/Car-Rental-System/tree/master",
+    source_code_link:
+      "https://github.com/ri123-ya/Car-Rental-System/tree/master",
   },
 ];
 
 const experiences = [
   {
-    title: "DSA Mentor",
-    company_name: "IT CLUB, AMITY UNIVERSITY",
-    icon: Amity,
+    title: "SDE Intern",
+    company_name: "OneHash.ai",
+    icon: Onehash,
     iconBg: "#ffffff",
-    date: "MAR 2024 - PRESENT",
+    date: "JUN 2025 - NOV 2025",
     points: [
-      "Mentored 2nd-year students in DSA, helping build a strong foundation through practice.",
-      "Solved 450+ problems on GeeksforGeeks and LeetCode, including over 50 SQL questions",
+      "Re-architected the recurring event feature using RFC 5545 (iCalendar) RRule, significantly improving database scalability and reducing storage footprint by 75%.",
+      "Integrated Pabbly Connect to create automated data transfer workflows, enabling real-time syncing and reducing manual effort by 15%.",
+      "Integrated QR code booking links to simplify event distribution, boosting mobile conversion rates by 10%.",
+      "Implemented a geo-aware user onboarding flow to enhance market scalability and reach, increasing profile verification rates by 20% in India.",
+      "Debugged and resolved client-reported bugs to ensure system reliability and performance.",
     ],
   },
   {
@@ -309,21 +344,19 @@ const experiences = [
       "Worked with cross-functional teams to troubleshoot complex issues, enhancing problem-solving and collaboration skills.",
     ],
   },
-  {
-    title: "Research Intern",
-    company_name: "CSIR-CMERI,DURGAPUR",
-    icon: Csir_logo,
-    iconBg: "#ffffff",
-    date: "JULY 2023 - AUGUST 2023",
-    points: [
-      "Implemented IoT sensors to monitor soil parameters and analyze the impact of NPK fertilizer.",
-      "Used ThingSpeak platform for real-time visualization and analysis of sensor data.",
-    ],
-  },
-
+  // {
+  //   title: "Research Intern",
+  //   company_name: "CSIR-CMERI,DURGAPUR",
+  //   icon: Csir_logo,
+  //   iconBg: "#ffffff",
+  //   date: "JULY 2023 - AUGUST 2023",
+  //   points: [
+  //     "Implemented IoT sensors to monitor soil parameters and analyze the impact of NPK fertilizer.",
+  //     "Used ThingSpeak platform for real-time visualization and analysis of sensor data.",
+  //   ],
+  // },
 ];
 
 const testimonials = [];
-
 
 export { services, technologies, projects, experiences, testimonials };
